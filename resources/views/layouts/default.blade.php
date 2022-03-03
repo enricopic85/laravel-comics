@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body>
     <header>
-        @include('partials.navbar')
+        @include('layouts.partials.navbar')
     </header>
-    @include('partials.jumbotron')
+    @include('layouts.partials.jumbotron')
     <main>
         @yield('content')
     </main>
-    @include('partials.shop')
-    @include('partials.centralfooter')
-    @include('partials.bottomfooter')
+    @include('layouts.partials.shop')
+    @include('layouts.partials.centralfooter')
+    @include('layouts.partials.bottomfooter')
 </body>
 </html>

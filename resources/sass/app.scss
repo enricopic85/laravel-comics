@@ -1,2 +1,13 @@
 @import "~bootstrap/scss/bootstrap";
+@import './partials/bottomfooter';
+@import './partials/centralfooter';
+@import './partials/home';
+@import './partials/jumbotron';
+@import './partials/navbar';
+@import './partials/shop';
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
